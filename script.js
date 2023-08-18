@@ -78,3 +78,19 @@ btn5.addEventListener("click", () => {
         result5.textContent = "Error";
     }
 })
+
+let form = document.querySelector(".form");
+
+form.addEventListener("register", (event) => {
+    form.preventDefault();
+
+    if (event.target[0].value.length >= 3 &&
+        event.target[1].value.includes("@.") &&
+        event.target[2].value.length >= 6) {
+        
+        window.location.href = "https://www.google.com";
+    } else {
+        result5.textContent = "Error";
+    }
+    
+})  
