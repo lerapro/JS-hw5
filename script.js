@@ -64,20 +64,20 @@ btn4.addEventListener("click", () => {
 
 // _______________________task5_______________________
 
-let name = document.querySelector(".name");
-let email = document.querySelector(".email");
-let password = document.querySelector(".password");
-let btn5 = document.querySelector(".btn5");
-let result5 = document.querySelector(".result5");
+// let name = document.querySelector(".name");
+// let email = document.querySelector(".email");
+// let password = document.querySelector(".password");
+// let btn5 = document.querySelector(".btn5");
+// let result5 = document.querySelector(".result5");
 
-btn5.addEventListener("click", () => {
-    if (name.value.length >= 3 && email.value.includes("@.") && password.value.length >= 6) {
-        // btn5.setAttribute("href", "https://www.google.com/");
-        window.location.href = "https://www.google.com";
-    } else {
-        result5.textContent = "Error";
-    }
-})
+// btn5.addEventListener("click", () => {
+//     if (name.value.length >= 3 && email.value.includes("@.") && password.value.length >= 6) {
+//         // btn5.setAttribute("href", "https://www.google.com/");
+//         window.location.href = "https://www.google.com";
+//     } else {
+//         result5.textContent = "Error";
+//     }
+// })
 
 let form = document.querySelector(".form");
 
